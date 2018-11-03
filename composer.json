@@ -1,20 +1,13 @@
 {
-    "name" : "dbwebb/design",
-    "description": "Course material for design.",
-    "homepage": "https://github.com/dbwebb-se/design",
+    "name" : "anax/noname",
+    "description": "A me page for the design course.",
     "license": "MIT",
-    "keywords": ["dbwebb", "education", "course"],
-    "authors": [
-        {
-            "name": "Mikael Roos",
-            "email": "mos@dbwebb.se"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/dbwebb-se/design/issues",
-        "source": "https://github.com/dbwebb-se/design"
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
     },
     "require": {
-        "php": "^7.2"
-    }
+        "anax/anax-design-me": "^1.0.8"
 }
+ }
