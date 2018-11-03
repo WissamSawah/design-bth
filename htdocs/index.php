@@ -14,7 +14,7 @@ require ANAX_INSTALL_PATH . "/vendor/autoload.php";
 
 // Add all framework services to $di
 $di = new Anax\DI\DIFactoryConfig();
-$di->loadServices(ANAX_INSTALL_PATH . "/config/di");
+$di->loadServices(ANAX_INSTALL_PATH . "/../config/di");
 
 // Send the response that the router returns from the route handler
 $di->get("response")->send(
