@@ -205,17 +205,17 @@
     },
     {
         "name": "anax/commons",
-        "version": "v2.0.0-beta.7",
-        "version_normalized": "2.0.0.0-beta7",
+        "version": "v2.0.0-beta.11",
+        "version_normalized": "2.0.0.0-beta11",
         "source": {
             "type": "git",
             "url": "https://github.com/canax/commons.git",
-            "reference": "56bc6cd711907e6f70e0619b7f289b86bcdadedd"
+            "reference": "27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/canax/commons/zipball/56bc6cd711907e6f70e0619b7f289b86bcdadedd",
-            "reference": "56bc6cd711907e6f70e0619b7f289b86bcdadedd",
+            "url": "https://api.github.com/repos/canax/commons/zipball/27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac",
+            "reference": "27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac",
             "shasum": ""
         },
         "require": {
@@ -225,7 +225,7 @@
             "anax/di": "^2.0.0@alpha",
             "phpunit/phpunit": "^7"
         },
-        "time": "2018-11-01T19:55:29+00:00",
+        "time": "2018-11-05T13:04:57+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -357,17 +357,17 @@
     },
     {
         "name": "anax/controller",
-        "version": "v2.0.0-beta.4",
-        "version_normalized": "2.0.0.0-beta4",
+        "version": "v2.0.0-beta.7",
+        "version_normalized": "2.0.0.0-beta7",
         "source": {
             "type": "git",
             "url": "https://github.com/canax/controller.git",
-            "reference": "be0a32e9a42fd834744cc5a4a898442813cdc572"
+            "reference": "47f2a56deb3bba9648260e77f9e10c4c181412bc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/canax/controller/zipball/be0a32e9a42fd834744cc5a4a898442813cdc572",
-            "reference": "be0a32e9a42fd834744cc5a4a898442813cdc572",
+            "url": "https://api.github.com/repos/canax/controller/zipball/47f2a56deb3bba9648260e77f9e10c4c181412bc",
+            "reference": "47f2a56deb3bba9648260e77f9e10c4c181412bc",
             "shasum": ""
         },
         "require": {
@@ -381,7 +381,7 @@
             "anax/view": "^2.0.0@alpha",
             "phpunit/phpunit": "^7"
         },
-        "time": "2018-09-25T17:27:59+00:00",
+        "time": "2018-11-05T14:09:50+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -835,17 +835,17 @@
     },
     {
         "name": "anax/view",
-        "version": "v2.0.0-beta.10",
-        "version_normalized": "2.0.0.0-beta10",
+        "version": "v2.0.0-beta.12",
+        "version_normalized": "2.0.0.0-beta12",
         "source": {
             "type": "git",
             "url": "https://github.com/canax/view.git",
-            "reference": "2fb56fc429b9683baf54ebf202bf7c4ed30e2d47"
+            "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/canax/view/zipball/2fb56fc429b9683baf54ebf202bf7c4ed30e2d47",
-            "reference": "2fb56fc429b9683baf54ebf202bf7c4ed30e2d47",
+            "url": "https://api.github.com/repos/canax/view/zipball/4d76c23aa1c7ce138dada2853f1b1f704d196c05",
+            "reference": "4d76c23aa1c7ce138dada2853f1b1f704d196c05",
             "shasum": ""
         },
         "require": {
@@ -857,7 +857,7 @@
             "anax/di": "^2.0.0@alpha",
             "phpunit/phpunit": "^7"
         },
-        "time": "2018-11-02T12:47:13+00:00",
+        "time": "2018-11-05T14:11:53+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
