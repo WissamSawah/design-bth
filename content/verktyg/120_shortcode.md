@@ -28,7 +28,7 @@ Här följer ett par exempel på hur man använder dessa shortcodes.
 Bilder med shortcode
 ---------------------------
 
-[FIGURE src=image/eld.jpg?width=1100&height=100&crop-to-fit class="right" caption="En eld som tar upp hela sidan."]
+[FIGURE src=image/eld.jpg?width=700&height=100&crop-to-fit class="right" caption="En eld som tar upp hela sidan."]
 
 [FIGURE src=image/eld.jpg?width=300 class="right" caption="En liten eld som flyter till höger."]
 

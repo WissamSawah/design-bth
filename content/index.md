@@ -1,25 +1,23 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/me2.jpg?w=300" class="right"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Hej! mitt namn är Wissam Sawah, 23 år och kommer ursprungligen ifrån Syrien. Är uppvuxen i den syriska huvudstaden Damaskus. 2016 gick flyttlasset mot Sverige och här har jag både bott och arbetat sedan dess.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Idag jobbar jag som visual merchandiser och butikssäljare i en av de strörsta GANT's butiker i Stockholm, där har jag jobbat nu i cirka 2,5 år.
+När det gäller intresse så har jag ett stort och brinnade intresse för datorer och tycker minst lika mycket om att sitta framför datorskärmen och spendera det mesta av dagen på att programmera egna webbsidor eller bara leka runt med  HTML,CSS funkationer.Språk är ett annat intresse som jag aldrig får nog av! förutom Svenska så kan jag prata Arabiska, Engelska, Turkiska, samt lite Italianska.Min målsättning är att läsa klart utbildningen och jobba antingen som programmerare eller webbutvecklare.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Wissam

@@ -14,3 +14,398 @@
 .rm-navbar-max {
     display: none;
 }
+
+/********************* Basic *************************/
+
+* {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+html {
+    background-color: #87c81e;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.wrap-all {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #699c17;
+}
+
+ul {
+    margin: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/*************************** HEADER ******************************/
+
+.region-header-col-1 {
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.region-header-col-2 {
+    display: inline;
+    float: left;
+    width: 57%;
+    margin-left: 9%;
+    margin-top: 10px;
+}
+
+.region-header-col-3 {
+    display: inline;
+    float: left;
+    width: 19%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+
+.outer-wrap-header {
+    height: 55px;
+}
+
+h1  {
+    border-bottom: 1px solid rgb(101,94,101);
+}
+
+/*************************** Images *****************************/
+
+.right {
+    float: right;
+}
+
+.right img {
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #78951e;
+}
+}
+
+.right:hover {
+    transform: scale(1.03);
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+figure.figure.left {
+    float: left;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.wrap-sidebar .block h4 {
+    border-top: 1px solid #ccc;
+    background-image: linear-gradient(to right,#fff,#699c17);
+}
+
+div.outer-wrap.outer-wrap-flash {
+    margin-left: 8em;
+    max-width: 100%;
+    height: auto;
+}
+
+.region-flash img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    padding: 7px;
+    background-color: #78951e;
+}
+}
+
+/**************** Logo text **************************/
+
+.site-logo-text-icon img {
+    width: 50px;
+}
+
+.site-logo-text a {
+    padding-left: 0.2em;
+    text-decoration: none;
+    font-size: 39px;
+    transition: all .2s linear;
+}
+
+.site-logo-text a:hover {
+    text-shadow:  2px 2px #cf4141;
+}
+
+.site-logo {
+    display: none;
+}
+
+/************* Redovisning Innehåll meny *******************/
+.block.toc a {
+    display: block;
+    padding: 12px 24px;
+    color: inherit;
+    color: inherit;
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+
+.block.toc .toc li.selected {
+    background-color: #87c81e;
+    color: #fff;
+}
+
+.block.toc h4 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.region-breadcrumb {
+    padding: 0px 100px;
+    margin-bottom: 33px;
+}
+
+form.stylechooser,
+fieldset {
+    max-width: 100%;
+}
+
+/***************** Styleväljare flash meddelande *********************/
+
+.info {
+    border: 2px solid #92cae4;
+    color: #205791;
+    background: #d5edf8;
+    margin-top: 16px;
+    font-size: 23px;
+    margin-left: 0px;
+}
+
+.info p {
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.warning {
+    border: 2px solid #d1d12e;
+    color: #3f3f0e;
+    background: #ededab;
+}
+
+.region-flash {
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+}
+
+/************************ Byline ***************************/
+
+.author-byline {
+    border: 1px solid #ccc;
+    margin-bottom: 46px;
+    padding: 1em;
+    width: 31em;
+    height: 9em;
+    position: relative;
+    max-width: 100%;
+}
+
+.author-byline:hover {
+    transform: scale(1.03);
+    opacity: 1;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 2px #87c81e;
+}
+
+.author-byline p {
+    margin: 3px auto;
+}
+
+/*************************** Navbar *****************************/
+
+.rm-navbar {
+    text-align: center;
+    font-size: 2.4em;
+    max-width: 100%;
+}
+
+.next-previous .next {
+    float: right;
+    text-align: right;
+}
+
+.rm-navbar a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    max-width: 100%;
+}
+
+.rm-navbar a:hover {
+    color: #699c17;
+}
+
+.rm-desktop li .rm-submenu-button {
+    display: none;
+}
+
+.rm-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rm-navbar li {
+    position: relative;
+    display: inline;
+}
+
+/*************************** Artiklar ***************************/
+
+.outer-wrap.outer-wrap-main {
+    height: 600px;
+}
+
+.region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 28%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.wrap-sidebar {
+    padding: 24px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.region-main {
+    display: inline;
+    float: left;
+    width: 80%;
+    margin-left: 9%;
+    position: relative;
+}
+
+.inner-wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1150px;
+}
+
+.row {
+    display: block;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 28%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.region-sidebar-right {
+    display: inline;
+    float: right;
+    width: 28%;
+    position: relative;
+    bottom: 420px;
+    left: 30px;
+}
+
+.region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 65%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-left: 4%;
+    position: initial;
+}
+
+/*********************** Footer **************************/
+
+.footer-column-x {
+    padding-bottom: 24px;
+    padding-right: 1em;
+    clear: both;
+}
+
+.footer-column,
+.footer-column-x {
+    height: 100%;
+}
+
+.footer-column {
+    display: inline;
+    float: left;
+    width: 32%;
+    margin-left: 0.8%;
+    margin-right: 0.5%;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    border-right: 1px solid #666;
+}
+
+
+.outer-wrap-footer {
+    background-color: rgb(32,32,32);
+    padding-top: 2px;
+    padding-bottom: 274px;
+    clear: both;
+    height: 200px;
+}
+
+
+.footer-column-wrapper {
+    color: #ddd;
+    padding-bottom: 24px;
+    margin-bottom: 159px;
+}
+
+.region-footer {
+    display: inline;
+}
+
+.site-footer {
+    color: #aaa;
+    text-align: center;
+    padding-bottom: 24px;
+}
