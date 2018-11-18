@@ -17,7 +17,7 @@ Min me-sida i kursen design
 
 Hej! mitt namn är Wissam Sawah, 23 år och kommer ursprungligen ifrån Syrien. Är uppvuxen i den syriska huvudstaden Damaskus. 2016 gick flyttlasset mot Sverige och här har jag både bott och arbetat sedan dess.
 
-Idag jobbar jag som visual merchandiser och butikssäljare i en av de strörsta GANT's butiker i Stockholm, där har jag jobbat nu i cirka 2,5 år.
+Idag jobbar jag som visual merchandiser och butikssäljare i en av de strörsta GANT's butiker i Stockholm, där jag har jobbat nu i cirka 2,5 år.
 
 När det gäller intresse så har jag ett stort och brinnade intresse för datorer och tycker minst lika mycket om att sitta framför datorskärmen och spendera det mesta av dagen på att programmera egna webbsidor eller bara leka runt med  HTML,CSS funktioner.
 

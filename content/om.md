@@ -29,4 +29,4 @@ Om denna webbplats
 
 Denna webbplats är byggd i Markdown, CSS och med PHP, som en del i kursen Teknisk webbdesign och användbarhet.
 
-[FIGURE src=image/css.png?w=200"]
+[FIGURE src=image/less2.png?w=200"]  

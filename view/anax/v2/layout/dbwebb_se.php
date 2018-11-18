@@ -60,6 +60,7 @@ $route = "route-" . str_replace("/", "-", $di->get("request")->getRoute());
 <head>
 
     <meta charset="<?= $charset ?>">
+    
     <title><?= $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

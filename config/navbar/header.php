@@ -13,6 +13,7 @@ return [
             "text" => "Hem",
             "url" => "",
             "title" => "Första sidan, börja här.",
+
         ],
         [
             "text" => "Redovisning",

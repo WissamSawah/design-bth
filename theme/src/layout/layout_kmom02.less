@@ -1,0 +1,142 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+@temaColor: #384952;
+@borderColor: #699c17;
+@bgColorImg: #78951e;
+@basicColor: #fff;
+@fontColor: #ccc;
+
+/**
+ * General layout
+ */
+
+ * {
+     box-sizing: border-box;
+     min-height: 20%;
+ }
+
+ h1  {
+     border-bottom: 1px solid rgb(101,94,101);
+ }
+
+
+
+  /* Hide responsive/mobile menu, leave this to kmom02 */
+  // .rm-desktop ul {
+  //     display: inherit;
+  // }
+
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+.rm-max .rm-small {
+     display: inherit;
+     color: @borderColor;
+}
+
+.rm-max .rm-navbar {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.rm-desktop li a {
+    color: inherit;
+    background-color: inherit;
+    display: inherit;
+}
+
+.inner-wrap {
+    margin: 0 auto;
+}
+
+
+
+//* HEADER wrap *//
+
+.outer-wrap-header {
+    max-width: 100%;
+    background-color: #384952;
+    box-shadow: 0 3px 2px @borderColor;
+    color: @fontColor;
+    height: auto;
+}
+
+//* Main wrap *//
+
+
+
+.row {
+    display: block;
+}
+
+//* Navbar *//
+
+.rm-navbar {
+    right: 3em;
+}
+
+.rm-navbar-max {
+    margin-top: 20px;
+}
+
+
+//* Wrap Sidebars *//
+.wrap-sidebar .block h4 {
+    border-top: 1px solid @fontColor;
+    background-image: linear-gradient(to right,@basicColor,@temaColor);
+}
+
+
+//* Images *//
+
+.right img {
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: @temaColor;
+}
+
+
+iframe {
+    max-width: 100%;
+    padding: 7px;
+    background-color: @temaColor;
+}
+
+//* Logos and logo text */
+
+//* Redovisning Innehåll meny*//
+
+
+.block.toc .toc li.selected {
+    background-color: @temaColor;
+    color: @basicColor;
+}
+
+
+
+//* Footer and Footer columns *//
+
+
+.outer-wrap-footer {
+    background-color: @temaColor;
+    padding-top: 2px;
+    clear: both;
+    border-top: 3px solid @borderColor;
+    box-shadow: 2px 1px 10px  #082027;
+}
+
+
+.footer-column-wrapper {
+    color: @fontColor;
+}
