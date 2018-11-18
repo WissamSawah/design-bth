@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Om Webbplatsen
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+webbplatsen är skapad i PHP CMS ramverket Anax. I webbplatsen finns bla. filer skrivna i PHP, Markdown, HTML och CSS med en prepocessor som LESS.
