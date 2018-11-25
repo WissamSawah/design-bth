@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "anax/anax-design-me",
-            "version": "v1.0.15",
+            "version": "v1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/anax-design-me.git",
-                "reference": "ab01556af7c290b1a4b787d7845a480c9d66bb61"
+                "reference": "f70ba7a4c4585e962e3e6282426c1724e09726ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/anax-design-me/zipball/ab01556af7c290b1a4b787d7845a480c9d66bb61",
-                "reference": "ab01556af7c290b1a4b787d7845a480c9d66bb61",
+                "url": "https://api.github.com/repos/canax/anax-design-me/zipball/f70ba7a4c4585e962e3e6282426c1724e09726ea",
+                "reference": "f70ba7a4c4585e962e3e6282426c1724e09726ea",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 "dbwebb",
                 "design"
             ],
-            "time": "2018-10-30T15:29:01+00:00"
+            "time": "2018-11-12T16:14:22+00:00"
         },
         {
             "name": "anax/anax-flat",
@@ -204,16 +204,16 @@
         },
         {
             "name": "anax/commons",
-            "version": "v2.0.0-beta.11",
+            "version": "v2.0.0-beta.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/commons.git",
-                "reference": "27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac"
+                "reference": "e0795f353337cc5c1d876e02916244900f764be5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/commons/zipball/27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac",
-                "reference": "27c7e98bf0e96ec3880ba486e55d9de46b3ac0ac",
+                "url": "https://api.github.com/repos/canax/commons/zipball/e0795f353337cc5c1d876e02916244900f764be5",
+                "reference": "e0795f353337cc5c1d876e02916244900f764be5",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "anax",
                 "framework"
             ],
-            "time": "2018-11-05T13:04:57+00:00"
+            "time": "2018-11-20T16:16:37+00:00"
         },
         {
             "name": "anax/configure",
@@ -402,16 +402,16 @@
         },
         {
             "name": "anax/di",
-            "version": "v2.0.0-beta.1",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/di.git",
-                "reference": "0d37fa94073fc4bfad41d63cfaa0e787202c26e5"
+                "reference": "64ea8749a3f5b53e7fcbb6be0b365734face7623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/di/zipball/0d37fa94073fc4bfad41d63cfaa0e787202c26e5",
-                "reference": "0d37fa94073fc4bfad41d63cfaa0e787202c26e5",
+                "url": "https://api.github.com/repos/canax/di/zipball/64ea8749a3f5b53e7fcbb6be0b365734face7623",
+                "reference": "64ea8749a3f5b53e7fcbb6be0b365734face7623",
                 "shasum": ""
             },
             "require": {
@@ -437,7 +437,7 @@
                     "email": "mos@dbwebb.se"
                 }
             ],
-            "description": "Anax DI module, dependency injection (PHP FIG PSR-11).",
+            "description": "Anax DI module, dependency injection (PHP-FIG PSR-11).",
             "homepage": "https://dbwebb.se/anax",
             "keywords": [
                 "boilerplate",
@@ -446,7 +446,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2018-08-15T15:01:48+00:00"
+            "time": "2018-11-16T11:07:00+00:00"
         },
         {
             "name": "anax/page",
@@ -600,16 +600,16 @@
         },
         {
             "name": "anax/router",
-            "version": "v2.0.0-beta.6",
+            "version": "v2.0.0-beta.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/router.git",
-                "reference": "244128e54ee5537f0e71ed99e440fa21fa2db624"
+                "reference": "66292f2ea2ef71b48caaade520a0c71f14592ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/router/zipball/244128e54ee5537f0e71ed99e440fa21fa2db624",
-                "reference": "244128e54ee5537f0e71ed99e440fa21fa2db624",
+                "url": "https://api.github.com/repos/canax/router/zipball/66292f2ea2ef71b48caaade520a0c71f14592ac6",
+                "reference": "66292f2ea2ef71b48caaade520a0c71f14592ac6",
                 "shasum": ""
             },
             "require": {
@@ -647,7 +647,7 @@
                 "micro",
                 "mvc"
             ],
-            "time": "2018-09-25T18:11:07+00:00"
+            "time": "2018-11-19T21:19:40+00:00"
         },
         {
             "name": "anax/session",

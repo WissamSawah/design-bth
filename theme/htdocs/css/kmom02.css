@@ -4335,7 +4335,6 @@ template {
  * OBSOLETE?
  */
 .rm-modal {
-  position: fixed;
   overflow: hidden;
 }
 /**
@@ -4385,7 +4384,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   min-width: 5em;
   position: relative;
-  top: 13px;
   overflow: auto;
   right: 28px;
   background-color: inherit;
@@ -4826,7 +4824,7 @@ fieldset {
 .outer-wrap-footer {
   background-color: #475321;
   padding-top: 2px;
-  padding-bottom: 310px;
+  padding-bottom: 395px;
   clear: both;
   height: 200px;
 }
