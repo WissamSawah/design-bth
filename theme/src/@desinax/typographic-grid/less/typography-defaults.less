@@ -45,12 +45,13 @@
 
 @colorTypographyMark: #000;
 @bgColorTypographyMark:  #ff9;
+@h1Color: #333;
 
-@colorBlockquoteBorder: #eee;
+@colorBlockquoteBorder: #b6dca3;
 @sizeBlockquoteBorder: 4px;
 
 @borderColorCodeInline: #ccc;
-@bgColorCodeInline:     #eee;
+@bgColorCodeInline:     #b6dca3;
 @bgColorCodeBlock:      #eee;
 @colorCodeBlockBorder:  #ccc;
 @borderSizeCodeblock:   1px;
@@ -115,6 +116,7 @@
             font-weight: normal;
             border-bottom: @borderSizeH1 solid @colorH1BorderBottom;
             margin-bottom: @magicNumber - @borderSizeH1;
+            color: @h1Color;
 
             // If header below h1, then assume larger margin top
             & ~ h1,

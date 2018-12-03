@@ -43,6 +43,7 @@
 // Mobile menu
 @mobileBgColor:     #444;
 @mobileColor:       #fff;
+@rmMobileBg: #4e5f35;
 
 // Max menu
 @maxBgColor:                #131313;
@@ -92,6 +93,7 @@ a.rm-button {
     .rm-button-face-1 {
         position: absolute;
         transition: color 0.10s ease;
+        margin-top: 15px;
     }
 
     .rm-button-face-2 {
@@ -140,7 +142,7 @@ a.rm-button {
             right: 28px;
             background-color: inherit;
             z-index: 999;
-            background-color: #4e5f35;
+            background-color: @rmMobileBg;
         }
     }
 
@@ -268,6 +270,7 @@ a.rm-button {
         display: block;
         box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
         padding-left: 14px;
+        padding: 0.5em;
 
         // All items of the menu
         // a:before {
@@ -351,7 +354,7 @@ a.rm-button {
         height: 500px;
         overflow-y: auto;
         padding-top: 72px;
-        background-color: #4e5f35;
+        background-color: @rmMobileBg;
 
 
         /* Color when menu item is clicked */
@@ -369,10 +372,10 @@ a.rm-button {
         .rm-submenu-button {
             float: right;
             box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-            padding: 8px 24px;
+            padding: 0px 24px;
             margin-right: 8px;
-            margin-top: 10px;
-            border-radius: 5px;
+            margin-top: 1px;
+            border-radius: 20px;
 
             // Really needed for compatibility?
             position: relative;
@@ -385,6 +388,8 @@ a.rm-button {
 
             &:hover {
                 text-decoration: none;
+                background: aliceblue;
+                color: #4E5F35;
             }
         }
 
