@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom04_fun.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
 
  */
 
@@ -64,6 +64,23 @@
 
 
 
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
 /**
 * Figure and figcaption for images and other media using figure/figcaption
 */
@@ -91,19 +108,6 @@ figure.figure-codepen {
 
 
 
-/**
- * Import the vertical grid.
- */
-@import "@desinax/vertical-grid/less/grid.less";
-
-
-
-// Default grid, change to fit your requirements.
-// @columnWidth:   30;
-// @gutterWidth:   10;
-// @columns:       24;
-// @gridType:      "float"; // "flex"
-
 
 
 /**
@@ -122,7 +126,12 @@ figure.figure-codepen {
  */
  @import "@desinax/responsive-menu/less/responsive-menu.less";
  @import "@desinax/responsive-menu/less/media-queries.less";
- @import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa|Domine|Fjalla+One|Montserrat|Raleway|Sedgwick+Ave');
+
+
+
+
+
 
 
 /**
@@ -132,34 +141,28 @@ figure.figure-codepen {
  // @innerWidth: auto;
 
  // My font-families
- @fontFamilyHeadings: 'Monoton', cursive;;
- @fontFamilyBody:     'Grand Hotel', cursive;;
+ @fontFamilyHeadings: 'Domine', serif;
+ @fontFamilyBody:     'Roboto Condensed', sans-serif;
  @fontFamilyCode:     @fontFamilyCourier;
+
 
  @magicNumber: 24px;
  @fontSizeBody: 16px;
 
- @headerBg: linear-gradient(195deg,#a00404,#333);
+
+ @headerBg: linear-gradient(195deg,#2A2C2B,#B29127);
  @borderColor: #fff;
- @colorBody: #333;
- @linkColor: #5A684D;
- @bgColorCodeInline: #ccc;
- @temaColor: #a00404;
+ @bgColorBody: #2A2C2B;
+ @colorBody: #ccc;
+ @linkColor: #B29127;
+ @bgColorCodeInline: #5f5127;
+ @temaColor: #70602e;
  @h4Col: #333;
- @maxBgColor: #333;
- @strongColor: #333;
- @h1Color: #333;
- @logoColor: #46B29D;
- @fontColor2: #ccc;
-
-body {
-    background-image: linear-gradient(rgba(222, 3, 1, 0.7),rgba(124, 138, 97, 0.55)),url(../img/forest.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.region-flash img {
-    display: none;
-}
+ @maxBgColor: #70602e;
+ @strongColor: #6c5c31;
+ @strongColor2: #fff;
+ @maxButtonClickedColor: #333;
+ @logoColor: #ccc;
+ @colorH1BorderBottom: #B29127;
+ @colorH4BorderBottom: #B29127;
+ @h1Color: #B29127;

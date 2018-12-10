@@ -63,6 +63,30 @@
 // @import "base/base.less";
 
 
+/**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+   #desinax-figure.figure();
+}
+
+figure.asciinema {
+   &:extend(figure.figure);
+   #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+   &:extend(figure.figure);
+   #desinax-figure.codepen();
+}
+
+
 
 
 
@@ -121,7 +145,7 @@
  @bgColorCodeInline: #ccc;
  @temaColor: #46B29D;
  @h4Col: #333;
- @rmMobileBg: #548670;
+ @maxBgColor: #548670;
  @strongColor: #46B29D;
  @strongColor2: #FC5152;
  @maxButtonClickedColor: #FC5152;

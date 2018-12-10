@@ -4330,13 +4330,18 @@ template {
 /**
  * Outer wrapper for menu
  */
+.rm-navbar {
+  position: relative;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /**
  * Avoid scrolling mobile devices
  * OBSOLETE?
  */
-.rm-modal {
-  overflow: hidden;
-}
 /**
  * Meny layout for the small buttonized menu.
  */
@@ -4357,7 +4362,6 @@ a.rm-button:active {
 a.rm-button .rm-button-face-1 {
   position: absolute;
   transition: color 0.1s ease;
-  margin-top: 15px;
 }
 a.rm-button .rm-button-face-2 {
   position: relative;
@@ -4383,15 +4387,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 5em;
-  position: relative;
-  overflow: auto;
-  right: 28px;
-  background-color: inherit;
-  z-index: 999;
-  background-color: #4e5f35;
+  background-color: #384952;
 }
 .rm-default a {
+  display: block;
   text-decoration: none;
   white-space: nowrap;
   outline: none;
@@ -4400,17 +4399,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   z-index: 9999;
   left: -9999px;
+  background-color: #384952;
 }
 .rm-default ul.rm-show-submenu {
   left: 0;
 }
 .rm-default ul li {
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-  display: block;
-  min-width: 5em;
-  overflow: auto;
-  right: 6px;
-  z-index: 999;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .rm-default ul ul {
   left: -9999px;
@@ -4419,17 +4414,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: inherit;
+  background-color: #384952;
 }
 .rm-desktop li {
   position: relative;
-}
-.rm-desktop li.rm-selected-parent,
-.rm-desktop li.rm-selected,
-.rm-desktop li.selected-parent,
-.rm-desktop li.selected {
-  color: inherit;
-  background-color: inherit;
 }
 .rm-desktop li a {
   color: inherit;
@@ -4460,12 +4448,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-mobile a {
   color: inherit;
+  padding: 0.5em;
 }
 .rm-mobile li {
   display: block;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  padding-left: 14px;
-  padding: 0.5em;
   /*        // Header of submenu is closed
         //&.sub-menu, // For WordPress menu generating
         &.rm-submenu > a:before {
@@ -4488,8 +4475,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 .rm-max.rm-navbar {
   position: absolute;
-  top: 0;
-  right: 15px;
+  top: 16px;
+  right: 24px;
 }
 .rm-max .rm-small {
   display: block;
@@ -4499,8 +4486,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-small .rm-button.rm-clicked {
   color: #9FB129;
-  position: absolute;
-  top: 5px;
+  position: fixed;
+  top: 16px;
   right: 24px;
   z-index: 999;
 }
@@ -4515,7 +4502,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #4e5f35;
+  background-color: #131313;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -4529,10 +4516,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  padding: 0px 24px;
+  background-color: #384952;
+  padding: 2px 20px;
   margin-right: 8px;
-  margin-top: 1px;
-  border-radius: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
   position: relative;
   z-index: 1;
 }
@@ -4541,8 +4529,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile .rm-submenu-button:hover {
   text-decoration: none;
-  background: aliceblue;
-  color: #4E5F35;
+  background-color: #ccc;
 }
 .rm-max .rm-mobile li ul {
   padding-left: 8px;
@@ -4562,25 +4549,17 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
   * Example on media queries
   */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 680px) {
   .rm-small {
-    display: inherit;
-  }
-  .hljs {
-    font-size: 7px;
-  }
-  .footer {
-    height: auto;
+    display: block;
   }
   .rm-desktop {
     display: none;
   }
-  select {
-    text-transform: none;
-    width: 240px;
-  }
-  .right img {
-    width: 57%;
+}
+@media screen and (min-width: 680px) {
+  .rm-small {
+    display: none;
   }
 }
 /**

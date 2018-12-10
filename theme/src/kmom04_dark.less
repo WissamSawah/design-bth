@@ -93,6 +93,36 @@
 @import "layout/responsive.less";
 // @import "layout/regions.less";     // To add style for ?regions
 
+
+/**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+   #desinax-figure.figure();
+}
+
+figure.asciinema {
+   &:extend(figure.figure);
+   #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+   &:extend(figure.figure);
+   #desinax-figure.codepen();
+}
+
+
+
+
+
+
+
 /**
  * A responsive menu.
  */
@@ -125,7 +155,7 @@
  @bgColorCodeInline: #5f5127;
  @temaColor: #70602e;
  @h4Col: #333;
- @rmMobileBg: #70602e;
+ @maxBgColor: #70602e;
  @strongColor: #6c5c31;
  @strongColor2: #fff;
  @maxButtonClickedColor: #333;

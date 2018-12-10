@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom04_minimalistic.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
 
  */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -4387,7 +4387,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  background-color: #5F5F5F;
+  background-color: #70602e;
 }
 .rm-default a {
   display: block;
@@ -4399,7 +4399,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   z-index: 9999;
   left: -9999px;
-  background-color: #5F5F5F;
+  background-color: #70602e;
 }
 .rm-default ul.rm-show-submenu {
   left: 0;
@@ -4414,7 +4414,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #5F5F5F;
+  background-color: #70602e;
 }
 .rm-desktop li {
   position: relative;
@@ -4485,7 +4485,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   color: inherit;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #9FB129;
+  color: #333;
   position: fixed;
   top: 16px;
   right: 24px;
@@ -4502,7 +4502,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #333;
+  background-color: #70602e;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -4516,7 +4516,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  background-color: #5F5F5F;
+  background-color: #70602e;
   padding: 2px 20px;
   margin-right: 8px;
   margin-top: 10px;
@@ -4602,134 +4602,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-image: url("../img/magic-number-24px.png");
 }
 /**
-* Figure and figcaption for images and other media using figure/figcaption
-*/
-/**
- * Figure with ASCIINEMA
- */
-/**
- * Figure with Codepen
- */
-/** --------------------------------------------------------------
- * Figure through .figure
- */
-figure.figure,
-figure.asciinema,
-figure.codepen,
-figure.figure-codepen {
-  display: table;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 24px;
-  /* Chrome shinks images in td */
-  /* Position the images */
-}
-figure.figure img {
-  max-width: 100%;
-  display: block;
-}
-figure.figure figcaption {
-  display: table-caption;
-  caption-side: bottom;
-  padding-top: 12px;
-}
-figure.figure figcaption p {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-style: italic;
-}
-figure.figure td img {
-  max-width: none;
-}
-figure.figure.center {
-  clear: both;
-  margin: auto;
-}
-figure.figure.center figcaption {
-  text-align: center;
-}
-figure.figure.left {
-  float: left;
-  margin-right: 0.5em;
-}
-figure.figure.right {
-  float: right;
-  margin-left: 0.5em;
-}
-@media screen and (max-width: 963px) {
-  figure.figure.left.w67,
-  figure.figure.right.w67 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w67 img,
-  figure.figure.right.w67 img {
-    width: 962.5px;
-  }
-}
-@media screen and (max-width: 733px) {
-  figure.figure.left.w50,
-  figure.figure.right.w50 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w50 img,
-  figure.figure.right.w50 img {
-    width: 733.33333333px;
-  }
-}
-@media screen and (max-width: 688px) {
-  figure.figure.left.w40,
-  figure.figure.right.w40 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w40 img,
-  figure.figure.right.w40 img {
-    width: 687.5px;
-  }
-}
-@media screen and (max-width: 550px) {
-  figure.figure.left.w33,
-  figure.figure.right.w33 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w33 img,
-  figure.figure.right.w33 img {
-    width: 550px;
-  }
-}
-@media screen and (max-width: 367px) {
-  figure.figure.left.w25,
-  figure.figure.right.w25 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w25 img,
-  figure.figure.right.w25 img {
-    width: 366.66666667px;
-  }
-}
-figure.asciinema {
-  display: block;
-}
-figure.asciinema figcaption {
-  display: block;
-}
-figure.asciinema .asciicast {
-  margin: 0 !important;
-}
-figure.codepen,
-figure.figure-codepen {
-  width: 100%;
-}
-/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -4747,10 +4619,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #5b5b5b;
-  background-color: #FF10;
+  color: #ccc;
+  background-color: #2A2C2B;
   overflow: hidden;
-  font: 16px/1.5 'Raleway', sans-serif;
+  font: 16px/1.5 'Roboto Condensed', sans-serif;
 }
 .somediv {
   clear: left;
@@ -4759,7 +4631,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: #699c17;
+  color: #B29127;
 }
 img {
   max-width: 100%;
@@ -4775,7 +4647,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Domine', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4791,9 +4663,9 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #B29127;
   margin-bottom: 23px;
-  color: #666;
+  color: #B29127;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4831,7 +4703,7 @@ h4 {
   line-height: 1.5;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #B29127;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4909,7 +4781,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #ccc;
+  background-color: #5f5127;
 }
 pre,
 div.code,
@@ -5070,6 +4942,134 @@ hr::after {
      */
 }
 /**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
@@ -5180,7 +5180,7 @@ div.outer-wrap.outer-wrap-flash {
   text-decoration: none;
   font-size: 30px;
   transition: all 0.2s linear;
-  color: #699c17;
+  color: #ccc;
 }
 .site-logo-text a:hover {
   text-shadow: 2px 2px #cf4141;
@@ -5195,7 +5195,7 @@ div.outer-wrap.outer-wrap-flash {
   border: 1px solid #ccc;
 }
 .block.toc a:hover {
-  color: #87c81e;
+  color: #fff;
 }
 h4 {
   margin-right: 10px;
@@ -5234,13 +5234,13 @@ h4 {
   }
 }
 strong {
-  color: #333;
+  color: #6c5c31;
 }
 .author-byline:hover {
   transform: scale(1.03);
   opacity: 1;
   transition: 0.5s ease;
-  box-shadow: 2px 2px 2px #333;
+  box-shadow: 2px 2px 2px #6c5c31;
 }
 .footer-column {
   display: inline;
@@ -5296,25 +5296,25 @@ strong {
   top: 0;
 }
 .outer-wrap-header {
-  background-image: linear-gradient(195deg, grey, #333);
+  background-image: linear-gradient(195deg, #2A2C2B, #B29127);
   box-shadow: 0 2px 2px #fff;
   color: #ccc;
 }
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
-  background-image: linear-gradient(to right, #fff, #5F5F5F);
+  background-image: linear-gradient(to right, #fff, #70602e);
   color: #333;
 }
 iframe {
   padding: 7px;
-  background-color: #5F5F5F;
+  background-color: #70602e;
 }
 .block.toc .toc li.selected {
-  background-color: #5F5F5F;
+  background-color: #70602e;
   color: #fff;
 }
 .outer-wrap-footer {
-  background-image: linear-gradient(195deg, grey, #333);
+  background-image: linear-gradient(195deg, #2A2C2B, #B29127);
   border-top: 1px solid #fff;
   box-shadow: 2px 1px 10px #082027;
 }

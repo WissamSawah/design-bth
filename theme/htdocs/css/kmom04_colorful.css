@@ -4330,13 +4330,18 @@ template {
 /**
  * Outer wrapper for menu
  */
+.rm-navbar {
+  position: relative;
+}
+.rm-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /**
  * Avoid scrolling mobile devices
  * OBSOLETE?
  */
-.rm-modal {
-  overflow: hidden;
-}
 /**
  * Meny layout for the small buttonized menu.
  */
@@ -4357,7 +4362,6 @@ a.rm-button:active {
 a.rm-button .rm-button-face-1 {
   position: absolute;
   transition: color 0.1s ease;
-  margin-top: 15px;
 }
 a.rm-button .rm-button-face-2 {
   position: relative;
@@ -4383,15 +4387,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  min-width: 5em;
-  position: relative;
-  overflow: auto;
-  right: 28px;
-  background-color: inherit;
-  z-index: 999;
-  background-color: #548670;
+  background-color: #46B29D;
 }
 .rm-default a {
+  display: block;
   text-decoration: none;
   white-space: nowrap;
   outline: none;
@@ -4400,17 +4399,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   z-index: 9999;
   left: -9999px;
+  background-color: #46B29D;
 }
 .rm-default ul.rm-show-submenu {
   left: 0;
 }
 .rm-default ul li {
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
-  display: block;
-  min-width: 5em;
-  overflow: auto;
-  right: 6px;
-  z-index: 999;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .rm-default ul ul {
   left: -9999px;
@@ -4419,17 +4414,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: inherit;
+  background-color: #46B29D;
 }
 .rm-desktop li {
   position: relative;
-}
-.rm-desktop li.rm-selected-parent,
-.rm-desktop li.rm-selected,
-.rm-desktop li.selected-parent,
-.rm-desktop li.selected {
-  color: inherit;
-  background-color: inherit;
 }
 .rm-desktop li a {
   color: inherit;
@@ -4460,12 +4448,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-mobile a {
   color: inherit;
+  padding: 0.5em;
 }
 .rm-mobile li {
   display: block;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  padding-left: 14px;
-  padding: 0.5em;
   /*        // Header of submenu is closed
         //&.sub-menu, // For WordPress menu generating
         &.rm-submenu > a:before {
@@ -4488,8 +4475,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 .rm-max.rm-navbar {
   position: absolute;
-  top: 0;
-  right: 15px;
+  top: 16px;
+  right: 24px;
 }
 .rm-max .rm-small {
   display: block;
@@ -4499,8 +4486,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-small .rm-button.rm-clicked {
   color: #FC5152;
-  position: absolute;
-  top: 5px;
+  position: fixed;
+  top: 16px;
   right: 24px;
   z-index: 999;
 }
@@ -4529,10 +4516,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-max .rm-mobile .rm-submenu-button {
   float: right;
   box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.4);
-  padding: 0px 24px;
+  background-color: #46B29D;
+  padding: 2px 20px;
   margin-right: 8px;
-  margin-top: 1px;
-  border-radius: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
   position: relative;
   z-index: 1;
 }
@@ -4541,8 +4529,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max .rm-mobile .rm-submenu-button:hover {
   text-decoration: none;
-  background: aliceblue;
-  color: #4E5F35;
+  background-color: #ccc;
 }
 .rm-max .rm-mobile li ul {
   padding-left: 8px;
@@ -4562,25 +4549,17 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
   * Example on media queries
   */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 680px) {
   .rm-small {
-    display: inherit;
-  }
-  .hljs {
-    font-size: 7px;
-  }
-  .footer {
-    height: auto;
+    display: block;
   }
   .rm-desktop {
     display: none;
   }
-  select {
-    text-transform: none;
-    width: 240px;
-  }
-  .right img {
-    width: 57%;
+}
+@media screen and (min-width: 680px) {
+  .rm-small {
+    display: none;
   }
 }
 /**
@@ -4686,7 +4665,7 @@ h1 {
   font-weight: normal;
   border-bottom: 1px solid #FC5152;
   margin-bottom: 23px;
-  color: #59C2A7;
+  color: #FC5152;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4783,7 +4762,7 @@ sub {
   bottom: -0.25em;
 }
 blockquote {
-  border-left: 4px solid #b6dca3;
+  border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
   margin-bottom: 24px;
@@ -4843,12 +4822,6 @@ ol ul,
 ul ol,
 ol ol {
   margin: 0;
-}
-ul {
-  list-style-type: none;
-}
-ol {
-  list-style-type: decimal;
 }
 dl {
   margin-bottom: 24px;
@@ -4914,21 +4887,10 @@ article table td,
 .table2 td {
   padding: 6px;
 }
-article table tr,
-.table tr,
-.table2 tr {
-  box-shadow: 0 1px 0 #ccc;
-}
 article table tr:hover,
 .table tr:hover,
 .table2 tr:hover {
   color: #000;
-  background-color: #f6f6f6;
-  box-shadow: 0 1px 0 #666;
-}
-table.striped tbody tr:nth-child(even) td,
-table.striped tbody tr.even td {
-  background-color: #fafafa;
 }
 hr {
   position: relative;
@@ -4946,6 +4908,134 @@ hr::after {
   left: 50%;
   padding: 0 0.25em;
   background-color: #fff;
+}
+/**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
 }
 /**
  * Import the vertical grid.
@@ -5064,6 +5154,7 @@ hr::after {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 120%;
 }
 .rm-navbar-max {
   font-size: 20px;
@@ -5074,17 +5165,9 @@ hr::after {
 .next-previous .next {
   text-align: right;
 }
-.right {
+figure.figure.right {
   float: right;
-}
-.right:hover {
-  transform: scale(1.03);
-  opacity: 1;
-  transition: 0.5s ease;
-}
-figure.figure.left {
-  float: left;
-  margin: 0 auto;
+  margin-left: 0.5em;
 }
 div.outer-wrap.outer-wrap-flash {
   clear: both;
@@ -5222,11 +5305,6 @@ strong {
   background-image: linear-gradient(to right, #fff, #46B29D);
   color: #333;
 }
-.right img {
-  border-radius: 20px;
-  padding: 3px;
-  background-color: #46B29D;
-}
 iframe {
   padding: 7px;
   background-color: #46B29D;
@@ -5282,6 +5360,11 @@ iframe {
 }
 .region-flash img {
   box-shadow: 2px 1px 10px #082027;
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 .sidebar {
   margin-left: 0.52083333%;

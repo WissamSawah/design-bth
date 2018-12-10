@@ -22,7 +22,7 @@
 @colorH1BorderBottom: #666;
 @colorH2BorderBottom: #CCC;
 @colorH3BorderBottom: #EEE;
-@colorH4BorderBottom: #666;
+@colorH4BorderBottom: #EEE;
 @colorH5BorderBottom: #EEE;
 @colorH6BorderBottom: #EEE;
 @borderSizeH1: 1px;
@@ -45,13 +45,12 @@
 
 @colorTypographyMark: #000;
 @bgColorTypographyMark:  #ff9;
-@h1Color: #333;
 
-@colorBlockquoteBorder: #b6dca3;
+@colorBlockquoteBorder: #eee;
 @sizeBlockquoteBorder: 4px;
 
 @borderColorCodeInline: #ccc;
-@bgColorCodeInline:     #b6dca3;
+@bgColorCodeInline:     #eee;
 @bgColorCodeBlock:      #eee;
 @colorCodeBlockBorder:  #ccc;
 @borderSizeCodeblock:   1px;
@@ -116,7 +115,7 @@
             font-weight: normal;
             border-bottom: @borderSizeH1 solid @colorH1BorderBottom;
             margin-bottom: @magicNumber - @borderSizeH1;
-            color: @h1Color;
+            color: @colorH1BorderBottom;
 
             // If header below h1, then assume larger margin top
             & ~ h1,
@@ -333,11 +332,11 @@
         }
 
         ul {
-            list-style-type: none;
+            // list-style-type: disc;
         }
 
         ol {
-            list-style-type: decimal;
+            // list-style-type: decimal;
         }
 
         // dl dt dd
@@ -421,12 +420,12 @@
             }
 
             tr {
-                box-shadow: 0 1px 0 @colorTableRowBorder;
+                // box-shadow: 0 1px 0 @colorTableRowBorder;
 
                 &:hover {
                     color: @colorTableRowHover;
-                    background-color: @bgColorTableRowHover;
-                    box-shadow: 0 1px 0 @colorTableRowBorderHover;
+                    // background-color: @bgColorTableRowHover;
+                    // box-shadow: 0 1px 0 @colorTableRowBorderHover;
                 }
             }
 
@@ -441,7 +440,7 @@
             tbody {
                 tr:nth-child(even) td,
                 tr.even td {
-                    background-color: @bgColorTableStripe;
+                    // background-color: @bgColorTableStripe;
                 }
             }
         }

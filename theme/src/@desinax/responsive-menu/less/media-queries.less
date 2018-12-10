@@ -6,28 +6,18 @@
  /**
   * Example on media queries
   */
- @media screen and (max-width: 950px) {
+ @media screen and (max-width: 680px) {
      .rm-small {
-         display: inherit;
+         display: block;
      }
-
-     .hljs {
-         font-size: 7px;
-     }
-
-     .footer {
-        height: auto;
-     }
-
+     
      .rm-desktop {
          display: none;
      }
-
-     select {
-     text-transform: none;
-     width: 240px;
  }
-    .right img {
-        width: 57%;
-    }
+
+ @media screen and (min-width: 680px) {
+     .rm-small {
+         display: none;
+     }
  }
