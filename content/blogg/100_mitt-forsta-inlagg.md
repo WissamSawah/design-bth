@@ -5,7 +5,7 @@ views:
         region: flash
         template: anax/v2/image/default
         data:
-            src: "image/rocks.jpg?width=1800&height=180&crop-to-fit&area=0,0,30,0&f=grayscale&f0=brightness,10&f1=contrast,-10&sharpen"
+            src: "image/rocks.png?width=1800&height=180&crop-to-fit&area=0,0,30,0&f=grayscale&f0=brightness,10&f1=contrast,-10&sharpen"
 author: Wissam
 category:
     - Kultur
@@ -17,7 +17,7 @@ Gotland
 ==================================
 
 <figure class="figure right w25">
-<a href="image/rocks.jpg"><img src="image/rocks.jpg?&q=100&w=200&h=200&crop-to-fit&area=0,10,25,10"alt="Folhammar"></a>
+<a href="image/rocks.png"><img src="image/rocks.png?&q=100&w=200&h=200&crop-to-fit&area=0,10,25,10"alt="Folhammar"></a>
    <figcaption>
        <p>Fina Folhammar på Gotland.</p>
    </figcaption>
@@ -46,13 +46,13 @@ Folhammar på Gotland {#anchor-hit}
 -----------------------------------
 
 <figure class="figure left">
-<a href="image/rocks.jpg"><img src="image/rocks.jpg?width=350&q=85&convolve=sharpen" alt="Folhammar"></a>
+<a href="image/rocks.png"><img src="image/rocks.png?width=350&q=100&convolve=sharpen" alt="Folhammar"></a>
    <figcaption>
        <p>Fina Folhammar på Gotland.</p>
    </figcaption>
 </figure>
 
-Strax norr om Ljugarns strand ligger Folhammar, ett av Gotlands finaste raukområden. Jag tog den här bilden när jag var på utflykt med mina vänner i sommras. Det var första gången för mig på Gotland. Ett magiskt ställe som jag kommer absolut att besöka igen!.
+Strax norr om Ljugarns strand ligger Folhammar, ett av Gotlands finaste raukområden. Jag tog den här bilden när jag var på utflykt med mina vänner i somras. Det var första gången för mig på Gotland. Ett magiskt ställe som jag kommer absolut att besöka igen!.
 
 Här kommer lite fakta om Folhammar för de som inte känner till det här fina stället.
 Folhammar är ett raukområde och naturreservat tre kilometer nordost om Ljugarn i Ardre socken på östra Gotland.
@@ -71,7 +71,7 @@ Här kommer bilden visas ur några olika aspekter.
 #### Grayscale {#vad-som}
 
 <figure class="figure center">
-<a href="image/rocks.jpg"><img src="image/rocks.jpg?w=400&q=90&f=grayscale" alt="Folhammar"></a>
+<a href="image/rocks.png"><img src="image/rocks.png?w=400&q=100&f=grayscale" alt="Folhammar"></a>
    <figcaption>
        <p>?w=400&f=grayscale.</p>
    </figcaption>
@@ -80,7 +80,7 @@ Här kommer bilden visas ur några olika aspekter.
 #### Contrast {#vad-som}
 
 <figure class="figure center">
-<a href="image/rocks.jpg"><img src="image/rocks.jpg?w=450&f=emboss,-20" alt="Folhammar"></a>
+<a href="image/rocks.png"><img src="image/rocks.png?w=450&f=emboss,-20" alt="Folhammar"></a>
    <figcaption>
        <p>?w=450&f=contrast,-20.</p>
    </figcaption>
@@ -88,7 +88,7 @@ Här kommer bilden visas ur några olika aspekter.
 #### Darken {#vad-som}
 
 <figure class="figure center">
-<a href="image/rocks.jpg"><img src="image/rocks.jpg?w=400&convolve=darken&aro&ra=15&bgc=#2A2C2B" alt="Folhammar"></a>
+<a href="image/rocks.png"><img src="image/rocks.png?w=400&convolve=darken&aro&ra=15&bgc=#2A2C2B" alt="Folhammar"></a>
    <figcaption>
        <p>?w=400&convolve=darken.</p>
    </figcaption>

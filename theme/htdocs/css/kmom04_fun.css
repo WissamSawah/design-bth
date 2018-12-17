@@ -4387,7 +4387,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  background-color: #a00404;
 }
 .rm-default a {
   display: block;
@@ -4399,7 +4398,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   z-index: 9999;
   left: -9999px;
-  background-color: #a00404;
 }
 .rm-default ul.rm-show-submenu {
   left: 0;
@@ -4810,7 +4808,7 @@ pre code {
 ul,
 ol {
   margin-bottom: 24px;
-  padding-left: 1.5em;
+  padding-left: 0px;
 }
 ul p,
 ol p {
@@ -4937,7 +4935,6 @@ figure.figure img {
   display: block;
 }
 figure.figure figcaption {
-  display: table-caption;
   caption-side: bottom;
   padding-top: 12px;
 }
@@ -5203,6 +5200,7 @@ h4 {
 .block.toc h4 {
   margin-top: 0;
   text-align: center;
+  margin-left: 9px;
 }
 .info {
   border: 2px solid #92cae4;
@@ -5359,7 +5357,7 @@ iframe {
   margin-right: 0.52083333%;
 }
 .region-flash img {
-  box-shadow: 2px 1px 10px #082027;
+  box-shadow: 2px 1px 10px #a00404;
   display: inline;
   float: left;
   width: 98.95833333%;

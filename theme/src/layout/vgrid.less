@@ -11,6 +11,7 @@
 @borderColor: #699c17;
 @basicColor: #fff;
 @fontColor: #ccc;
+@fontColor21: #ccc;
 @fontColor2: #ccc;
 @h4Col: #ccc;
 @temaColor: #384952;
@@ -25,8 +26,6 @@
 /**
  * General layout
  */
-
-
 
 
  .row {
@@ -216,7 +215,7 @@ div.outer-wrap.outer-wrap-flash {
 }
 
 .block.toc a:hover {
-    color: @strongColor2
+    color: @strongColor2;
 }
 
 
@@ -227,6 +226,7 @@ h4 {
 .block.toc h4 {
     margin-top: 0;
     text-align: center;
+    margin-left: 9px;
 }
 
 form.stylechooser,
@@ -262,7 +262,7 @@ fieldset {
 //* Byline *//
 
 .author-byline {
-    border: 1px solid @fontColor;
+    border: 1px solid @fontColor21;
     padding: 0.5em;
     //width: 31em;
     height: 10em;
@@ -517,9 +517,9 @@ iframe {
     // max-width: 100%;
     // height: auto;
     // clear: both;
-    box-shadow: 2px 1px 10px  #082027;
+    box-shadow: 2px 1px 10px  @temaColor;
     #desinax-vgrid.column(@columns);
-    
+
 
 }
 

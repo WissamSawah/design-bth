@@ -49,7 +49,7 @@ Camp Nou i Barcelona {#anchor-hit}
 </figure>
 Camp nou är den största stadion i Spanien och Europa, och den tredje största fotbollsstadion i hela världen.
 
-Är man en riktig fans till Barcelona, då ska man åka till bercelona och besöka Camp Nou! Väldigt fint upplevelse att minnas!<br/>
+Är man en riktig fans till Barcelona, då ska man åka till bercelona och besöka Camp Nou! Väldigt fin upplevelse att minnas!<br/>
 
 <br/>
 <br/>

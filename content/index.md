@@ -13,7 +13,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me2.jpg?w=300" class="right"]
+[FIGURE src="image/me2.jpg?&q=100&w=250" class="right"]
 
 Hej! mitt namn är Wissam Sawah, 23 år och kommer ursprungligen ifrån Syrien. född och uppvuxen i den syriska huvudstaden Damaskus. Har bott i Sverige i nästan tre år och jobbat i två och ett halvår.
 

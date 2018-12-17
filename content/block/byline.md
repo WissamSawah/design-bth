@@ -1,6 +1,6 @@
 <div class="author-byline">
 <figure class="figure left">
-<a href="image/me.jpg"><img src="image/me.jpg?w=100" alt="Wissam Sawah"/></a>
+<a href="image/me.jpg"><img src="image/me.jpg&q=100&w=100" alt="Wissam Sawah"/></a>
 <figcaption>
 
 <p>Wissam Sawah</p>

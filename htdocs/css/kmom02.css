@@ -4387,7 +4387,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-default li li {
   display: block;
-  background-color: #384952;
 }
 .rm-default a {
   display: block;
@@ -4399,7 +4398,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   z-index: 9999;
   left: -9999px;
-  background-color: #384952;
 }
 .rm-default ul.rm-show-submenu {
   left: 0;

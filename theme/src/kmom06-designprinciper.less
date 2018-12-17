@@ -1,0 +1,289 @@
+/*!
+ * Stylesheet for design kmom06_designprinciper.
+ *
+ * This stylesheet is for the design course and kmom06_designprinciper where we use LESS.
+
+ */
+
+
+
+@import "normalize.css/normalize.less";
+
+
+
+
+
+/**
+ * Font Awesome.
+ */
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+
+}
+
+
+/**
+* Figure and figcaption for images and other media using figure/figcaption
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+   #desinax-figure.figure();
+}
+
+figure.asciinema {
+   &:extend(figure.figure);
+   #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+   &:extend(figure.figure);
+   #desinax-figure.codepen();
+}
+
+
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+// @import "base/base.less";
+
+
+
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/vgrid.less";
+@import "layout/responsive.less";
+// @import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * A responsive menu.
+ */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ @import "@desinax/responsive-menu/less/media-queries.less";
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Comfortaa|Domine|Fjalla+One|Montserrat|Raleway:550|Sedgwick+Ave');
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ // @innerWidth: auto;
+
+ // My font-families
+ @fontFamilyHeadings: @fontFamilyCambria;
+ @fontFamilyBody:     'Raleway', sans-serif;
+ @fontFamilyCode:     @fontFamilyCourier;
+
+ @magicNumber: 24px;
+ @fontSizeBody: 16px;
+
+ @headerBg: linear-gradient(to left,#ABC8E2,#183152);
+ @borderColor: #183152;
+ @bgColorBody: #eee;
+ @colorBody: #404036;
+ @bgColorCodeInline: #ccc;
+ @temaColor: #183152;
+ @h4Col: #333;
+ @maxBgColor: #183152;
+ @strongColor: #183152;
+ @h1Color: #183152;
+ @colorH1BorderBottom: #183152;
+ @fontColor21: #596f13;
+ @linkColor: #183152;
+ @strongColor2: #eee;
+ @colorH4BorderBottom: #183152;
+ @colorH3BorderBottom: #183152;
+
+
+
+ .region-flash img {
+     padding: 5px;
+     border-radius: 10px;
+     animation: changeColour1 10s linear 2s infinite ;
+ }
+
+.figure.figure img {
+    border-radius: 20%;
+    transition: transform .2s;
+    box-shadow: 4px 1px 10px #082027;
+    padding: 5px;
+    animation: changeColour1 10s linear 2s infinite ;
+}
+
+.figure.figure img:hover {
+    transform: scale(1.1);
+}
+
+.inner-wrap-main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    background-image: linear-gradient(#ccc,#eee5);
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 25px;
+    box-shadow: 4px 2px 42px #082027;
+    margin-bottom: 5px;
+    border: 7px outset;
+}
+
+
+h1,
+h3,
+h4 {
+    color: #183152;
+    animation: changeColour3 10s linear 2s infinite ;
+}
+
+.block.toc .toc li.selected {
+    background-color: #183152;
+    animation: changeColour 10s linear 2s infinite ;
+
+}
+
+.wrap-sidebar .block h4 {
+    background-image: linear-gradient(to right,#ABC8E2,#183152);
+    animation: changeColour 10s linear 2s infinite;
+    color: #fff;
+}
+
+.outer-wrap-header,
+.outer-wrap-footer{
+
+    animation: changeColour 10s linear 2s infinite ;
+    box-shadow: 4px 2px 10px #082027;
+
+}
+
+.site-logo-text a {
+    animation: changeColour2 10s linear 2s infinite ;
+
+}
+
+.rm-desktop ul {
+    animation: changeColour1 10s linear 2s infinite ;
+}
+
+
+@keyframes changeColour {
+    10% {
+        background-image: linear-gradient(to left #C4D7ED,#375D81);
+    }
+    50% {
+        background-image: linear-gradient(to left,#2F343B,#703030);
+    }
+
+    100% {
+        background-image: linear-gradient(to left,#183152,#8ab6de);
+    }
+
+}
+
+@keyframes changeColour2 {
+    10% {
+        color: #ccc;
+    }
+    50% {
+        color: #ccc;
+    }
+
+    100% {
+        color: #333;
+    }
+
+}
+
+@keyframes changeColour3 {
+    10% {
+        color: #375D81;
+    }
+
+    50% {
+        color: #703030;
+    }
+
+    100% {
+        color: #183152;
+    }
+
+}
+
+@keyframes changeColour1 {
+    10%,
+    40% {
+        background-color: #375D81;
+    }
+
+    40%,
+    70% {
+        background-color: #703030;
+    }
+
+    70%,
+    100% {
+        background-color: #183152;
+    }
+
+}

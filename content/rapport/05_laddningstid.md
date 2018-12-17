@@ -5,7 +5,7 @@ views:
         region: flash
         template: anax/v2/image/default
         data:
-            src: "image/load.jpeg?width=1800&height=150&crop-to-fit&area=0,0,-40,0"
+            src: "image/load.jpeg?q=100&width=1800&height=150&crop-to-fit&area=0,0,-40,0"
 ---
 
 
@@ -34,7 +34,7 @@ Antagning.se är den snabbaste och som fick bästa resultat i mätnings-testet m
 <ol>
 <li> Aktivera komprimering, Google PageSpeed Insights anser att antagning kan göra webbplatsen mycket snabbare om de komprimerar alla textbaserade resurser som används i webbplatsen. </li>
 <li> Ta bort CSS och JavaScript-kod som blockerar renderingen från innehåll  ovanför mitten i webbplatsen. </li>
-<li> ta bort oänvand CSS-kod och förminska HTML-koden.  </li>
+<li> ta bort oanvänd CSS-kod och förminska HTML-koden.  </li>
 </ol>
 
 

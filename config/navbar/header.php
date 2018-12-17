@@ -46,6 +46,11 @@ return [
                         "url" => "redovisning/kmom05",
                         "title" => "Redovisning för kmom05.",
                     ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
                 ],
             ],
         ],
@@ -53,20 +58,7 @@ return [
             "text" => "Rapport",
             "url" => "rapport",
             "title" => "Rapport från kursmomenten",
-            "submenu" => [
-                "items" => [
-                    [
-                        "text" => "Färgschema",
-                        "url" => "rapport/fargschema",
-                        "title" => "Färgschema rapport",
-                    ],
-                    [
-                        "text" => "Laddningstid",
-                        "url" => "rapport/laddningstid",
-                        "title" => "Laddningstid",
-                    ],
-                ],
-            ],
+            
         ],
         [
             "text" => "Om",
